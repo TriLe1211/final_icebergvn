@@ -6,7 +6,7 @@
 }
 
 .hero {
-  margin-top: 100px;
+  margin-top: 10vh;
   background-color: var(--primary-color);
   padding: 4rem 0;
   height: 65vh;
