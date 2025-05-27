@@ -1,0 +1,56 @@
+/* PC */
+@media screen and (min-width: 992px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+/* Tablet */
+@media screen and (min-width: 768px) and (max-width: 991.98px) {
+  html {
+    font-size: 11px;
+  }
+
+  .hero {
+    height: 65vh;
+  }
+
+  .hero .desc p {
+    width: 60%;
+  }
+
+  .frame {
+    width: 50%;
+  }
+
+  .frame .thumbnail {
+    height: 150px;
+  }
+
+  .locate {
+    width: 50%;
+  }
+}
+
+/* Mobile */
+@media screen and (max-width: 767.98px) {
+  html {
+    font-size: 7px;
+  }
+
+  .hero {
+    height: 40vh;
+  }
+
+  .hero .desc p {
+    width: 75%;
+  }
+
+  .frame .thumbnail {
+    height: 80px;
+  }
+
+  .locate {
+    font-size: 1.6rem;
+  }
+}

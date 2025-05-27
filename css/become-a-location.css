@@ -1,0 +1,97 @@
+:root {
+}
+
+.bg-light-custom {
+  background-color: #f8f9fa;
+}
+
+.hero {
+  margin-top: 100px;
+  background-color: var(--primary-color);
+  padding: 4rem 0;
+  height: 65vh;
+}
+
+.hero .desc {
+  margin-top: 2rem;
+}
+
+.hero .title {
+  font-size: 2.9rem;
+  font-weight: bold;
+}
+
+.hero .desc p {
+  width: 40%;
+  font-size: 1.4rem;
+}
+
+.sub-hero {
+  background-color: rgb(252, 196, 19);
+  padding: 4rem 0;
+}
+
+.sub-hero h2 {
+  color: var(--primary-color);
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.section-padding {
+  padding: 4rem 0;
+  background-color: #edecec;
+}
+
+.frame {
+  width: 70%;
+}
+
+.frame .thumbnail {
+  object-fit: fill;
+  height: 300px;
+  width: 100%;
+}
+
+.locate {
+  width: 30%;
+  font-size: 2.2rem;
+  text-align: center;
+  color: var(--primary-color);
+  font-weight: bold;
+}
+
+.order {
+  background-color: rgb(252, 196, 19);
+  padding: 1.5rem 0 5rem;
+}
+
+.order .title {
+  font-size: 2.7rem;
+  font-weight: bold;
+}
+
+.order .step {
+  gap: 2.5rem;
+  width: 25%;
+}
+
+.order .step-list {
+  margin-top: 3rem;
+}
+
+.order .number {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+
+.order .icon {
+  font-size: 3.3rem;
+}
+
+.order .desc {
+  font-size: 1.1rem;
+  font-weight: bold;
+  width: 75%;
+  text-align: center;
+}

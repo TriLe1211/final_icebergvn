@@ -1,0 +1,98 @@
+:root {
+}
+
+.cooperation {
+  padding-top: 10vh;
+  padding-bottom: 0px;
+  background: #f8f9fa;
+}
+
+.hero {
+  height: 85vh;
+}
+
+.hero-section {
+  text-align: center;
+  padding: 4rem 2rem;
+  background: #f8f9fa;
+}
+
+.hero-section h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.hero-section p {
+  max-width: 50rem;
+  margin: 0 auto;
+  line-height: 1.6;
+  color: #666;
+}
+
+.hero-text {
+  background-color: rgb(13, 118, 162);
+}
+
+.hero-text .title,
+.hero-text p {
+  color: rgb(252, 196, 19);
+}
+
+.hero-text .title {
+  font-size: 4.5rem;
+  width: 75%;
+}
+
+.hero-text .desc {
+  font-size: 1.3rem;
+}
+
+.icon {
+  font-size: 4.4rem;
+}
+
+.partnership-card {
+  text-align: center;
+  padding: 2rem;
+  background: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.partnership-card:hover {
+  transform: translateY(-5px);
+}
+
+.partnership-card h2 {
+  width: 75%;
+  font-size: 1.5rem;
+  margin: 1rem auto;
+  color: #333;
+  text-transform: uppercase;
+}
+
+.partnership-card p {
+  width: 75%;
+  color: #666;
+  margin: 2rem auto;
+  font-size: 0.875rem;
+}
+
+.read-more {
+  display: inline-block;
+  width: 65%;
+  padding: 0.8rem 1.5rem;
+  background: #333;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background 0.3s ease;
+  font-size: 0.875rem;
+}
+
+.read-more:hover {
+  text-decoration: none;
+  background: #555;
+  color: rgb(75, 209, 160);
+}
