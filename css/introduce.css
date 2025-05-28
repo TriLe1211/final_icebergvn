@@ -3,18 +3,42 @@
   --secondary-color: #ffffff;
 }
 
+/* Animation Classes */
+.fade-in-left,
+.fade-in-right,
+.fade-in-up {
+  opacity: 0;
+  transition: opacity 0.5s ease-out;
+}
+
+/* Page Content Animation */
+.page-content {
+  opacity: 0;
+  animation: fadeIn 1s ease forwards;
+}
+
 /* About Section Styles */
 .about {
   margin-top: 10vh;
   background-color: var(--secondary-color);
   position: relative;
+  opacity: 0;
+  animation: fadeIn 1s ease forwards;
+  animation-delay: 0.2s;
 }
+
+/* .about.fade-in-left {
+  transition-delay: 0.4s;
+} */
 
 .about-banner {
   width: 100%;
   height: auto;
   border-radius: 0;
   margin: 0 auto;
+  opacity: 0;
+  animation: fadeIn 1s ease forwards;
+  animation-delay: 0.4s;
 }
 
 .about-banner img {
@@ -29,11 +53,9 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: linear-gradient(
-    to bottom,
-    rgba(0, 0, 0, 0.3),
-    rgba(0, 0, 0, 0.6)
-  );
+  background: linear-gradient(to bottom,
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.6));
 }
 
 .about-content {
@@ -47,6 +69,9 @@
   z-index: 1;
   box-sizing: border-box;
   text-align: center;
+  opacity: 0;
+  animation: fadeIn 1s ease forwards;
+  animation-delay: 0.6s;
 }
 
 .about-text {
@@ -74,6 +99,9 @@
 .vision {
   padding: 80px 0;
   background-color: var(--secondary-color);
+  opacity: 0;
+  animation: fadeIn 1s ease forwards;
+  animation-delay: 0.8s;
 }
 
 .vision-wrapper {
@@ -90,6 +118,9 @@
   height: 500px;
   overflow: hidden;
   border-radius: 10px;
+  opacity: 0;
+  animation: fadeIn 1s ease forwards;
+  animation-delay: 1s;
 }
 
 .vision-img img {
@@ -104,6 +135,9 @@
   flex-direction: column;
   justify-content: center;
   padding: 20px;
+  opacity: 0;
+  animation: fadeIn 1s ease forwards;
+  animation-delay: 1.2s;
 }
 
 .vision-title {
@@ -124,12 +158,18 @@
   padding: 80px 0;
   background-color: #f8f9fa;
   /* Example background if image doesn't cover */
+  opacity: 0;
+  animation: fadeIn 1s ease forwards;
+  animation-delay: 1.4s;
 }
 
 .img-wrapper {
   position: relative;
   width: 100%;
   overflow: hidden;
+  opacity: 0;
+  animation: fadeIn 1s ease forwards;
+  animation-delay: 1.6s;
 }
 
 .img-wrapper img {
@@ -161,6 +201,9 @@
   z-index: 1;
   padding: 20px;
   box-sizing: border-box;
+  opacity: 0;
+  animation: fadeIn 1s ease forwards;
+  animation-delay: 1.8s;
 }
 
 .info-title {
@@ -178,4 +221,15 @@
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+/* Keyframes */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
 }

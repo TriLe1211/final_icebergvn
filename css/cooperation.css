@@ -1,4 +1,14 @@
-:root {
+:root {}
+
+/* Keyframes */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
 }
 
 .cooperation {
@@ -13,6 +23,9 @@
 
 .hero {
   height: 85vh;
+  opacity: 0;
+  animation: fadeIn 1s ease forwards;
+  animation-delay: 0.4s;
 }
 
 .hero-section {
@@ -56,6 +69,13 @@
 .icon {
   font-size: 4.4rem;
 }
+
+.partnership-grid {
+  opacity: 0;
+  animation: fadeIn 1s ease forwards;
+  animation-delay: 1s;
+}
+
 
 .partnership-card {
   text-align: center;

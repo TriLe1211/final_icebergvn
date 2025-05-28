@@ -11,6 +11,7 @@ body {
 :root {
   --primary-color: #27548a;
   --secondary-color: #ffffff;
+  --third-color: rgb(252, 196, 19);
 }
 
 .header {
@@ -85,6 +86,8 @@ body {
   justify-content: center !important;
   text-decoration: none !important;
 }
+
+
 .dropdown {
   display: flex;
   flex-direction: row;

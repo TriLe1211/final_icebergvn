@@ -1,0 +1,114 @@
+/* PC */
+@media screen and (min-width: 992px) {
+  html {
+    font-size: 16px;
+  }
+
+
+}
+
+/* Tablet */
+@media screen and (min-width: 768px) and (max-width: 991.98px) {
+  html {
+    font-size: 11px;
+  }
+
+  .advertise-text h1 {
+    font-size: 3rem;
+  }
+
+  .advertise-text span {
+    font-size: 1rem;
+  }
+
+  .aoc-wrapper,
+  .aos-wrapper {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .aoc-text,
+  .aos-text {
+    width: 100%;
+    padding: 1.5rem;
+  }
+
+  .aoc-img,
+  .aos-img {
+    width: 100%;
+    padding: 1.5rem;
+  }
+
+  .aoc-text h2,
+  .aos-text h2 {
+    font-size: 2rem;
+  }
+
+  .aoc-text p,
+  .aos-text p {
+    font-size: 0.9rem;
+  }
+}
+
+/* Mobile */
+@media screen and (max-width: 767.98px) {
+  html {
+    font-size: 7px;
+  }
+
+  .advertise-banner {
+    margin: 50px 0;
+  }
+
+  .advertise-img {
+    height: 40vh;
+  }
+
+  .advertise-text {
+    width: 90%;
+  }
+
+  .advertise-text h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+
+  .advertise-text span {
+    font-size: 0.9rem;
+    line-height: 1.4;
+  }
+
+  .aoc-hero,
+  .aos-hero {
+    height: auto;
+    margin: 0 0 50px 0;
+  }
+
+  .aoc-wrapper,
+  .aos-wrapper {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .aoc-text,
+  .aos-text {
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .aoc-img,
+  .aos-img {
+    width: 100%;
+    padding: 1rem;
+  }
+
+  .aoc-text h2,
+  .aos-text h2 {
+    font-size: 1.8rem;
+  }
+
+  .aoc-text p,
+  .aos-text p {
+    font-size: 0.8rem;
+  }
+}

@@ -207,6 +207,14 @@ function setActiveNavLink() {
     const currentPage = window.location.pathname.split('/').pop() || 'home.html';
     const navLinks = document.querySelectorAll('.nav-link');
     
+    // List of cooperation dropdown pages
+    const cooperationPages = [
+        'become-a-location.html',
+        'advertisement.html',
+        'lease-and-franchise.html',
+        'product-promotion.html'
+    ];
+    
     navLinks.forEach(link => {
         // Remove any existing active styles
         link.classList.remove('active');
@@ -216,10 +224,11 @@ function setActiveNavLink() {
         const href = link.getAttribute('href');
         const pageName = href.split('/').pop();
         
-        // Check if this is the current page
+        // Check if this is the current page or a cooperation dropdown page
         if (pageName === currentPage || 
             (currentPage === '' && pageName === 'home.html') ||
-            (currentPage === 'index.html' && pageName === 'home.html')) {
+            (currentPage === 'index.html' && pageName === 'home.html') ||
+            (cooperationPages.includes(currentPage) && pageName === 'cooperation.html')) {
             link.classList.add('active');
             link.style.borderTop = '3px solid var(--primary-color)';
         }
@@ -228,3 +237,23 @@ function setActiveNavLink() {
 
 // Also call setActiveNavLink when URL changes
 window.addEventListener('popstate', setActiveNavLink);
+
+// Animation Observer
+const animationObserver = new IntersectionObserver((entries) => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      entry.target.classList.add('animate');
+    }
+  });
+}, {
+  threshold: 0.1
+});
+
+// Observe elements for animation
+document.addEventListener('DOMContentLoaded', function() {
+  // Contact page animations
+  const contactElements = document.querySelectorAll('.contact-text, .contact-img, .map-container, .contact-detail');
+  contactElements.forEach(element => {
+    animationObserver.observe(element);
+  });
+});
