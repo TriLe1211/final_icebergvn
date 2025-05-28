@@ -163,7 +163,7 @@
   }
 
   .about {
-    padding: 90px 0;
+    margin-top: 7vh;
     position: relative;
   }
 
@@ -179,7 +179,6 @@
 
   .about-text {
     width: 100%;
-    padding: 15px;
   }
 
   .about-title h1 {
