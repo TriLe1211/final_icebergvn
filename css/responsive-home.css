@@ -130,6 +130,9 @@
     font-size: 2rem;
   }
 
+  .features-content {
+    width: 100%;
+  }
 
   .feature-list {
     padding: 0px;
