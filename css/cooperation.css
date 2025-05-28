@@ -7,6 +7,10 @@
   background: #f8f9fa;
 }
 
+.partnership-grid {
+  margin: 0px;
+}
+
 .hero {
   height: 85vh;
 }
@@ -40,12 +44,13 @@
 }
 
 .hero-text .title {
-  font-size: 4.5rem;
-  width: 75%;
+  font-size: 4rem;
+  width: 100%;
 }
 
 .hero-text .desc {
   font-size: 1.3rem;
+  width: 75%;
 }
 
 .icon {
