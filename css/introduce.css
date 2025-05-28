@@ -116,206 +116,62 @@
 }
 
 /* More Info Section */
+.more-info {
+  padding: 80px 0;
+  background-color: #f8f9fa;
+  /* Example background if image doesn't cover */
+}
+
 .img-wrapper {
-  width: 100%;
   position: relative;
+  width: 100%;
+  overflow: hidden;
 }
 
 .img-wrapper img {
+  display: block;
   width: 100%;
-  height: 800px;
-  object-fit: cover;
+  height: auto;
+  /* Use height: auto for responsiveness */
 }
 
 .img-overlay {
   position: absolute;
-  height: 800px;
-  width: 50%;
-  top: 50%;
-  left: 0%;
-  transform: translate(0%, -50%);
-  background-color: #000;
-  opacity: 0.5;
-  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.793);
+  /* Dark overlay */
 }
 
 .info-text {
   position: absolute;
-  height: 800px;
-  width: 50%;
   top: 50%;
-  left: 0%;
-  transform: translate(0%, -50%);
-  /* background-color: #000; */
-  /* opacity: 0.5; */
-  z-index: 2;
-  color: var(--secondary-color);
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+  /* Default width, adjusted in responsive CSS */
   text-align: center;
-  padding: 200px 100px 100px 100px;
+  color: #fff;
+  z-index: 1;
+  padding: 20px;
+  box-sizing: border-box;
 }
 
 .info-title {
-  font-size: 60px;
+  font-size: 40px;
   font-weight: bold;
+  margin-bottom: 15px;
 }
 
 .info-detail {
-  font-size: 24px;
+  font-size: 18px;
+  line-height: 1.6;
 }
 
-
-/* Responsive Styles */
-@media screen and (max-width: 992px) {
-  .about {
-    padding: 100px 0;
-    position: relative;
-  }
-
-  .about-content {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-
-  .vision-wrapper {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .vision-img {
-    width: 100%;
-    height: 400px;
-    margin-bottom: 30px;
-  }
-
-  .vision-text {
-    width: 100%;
-    padding: 0 20px;
-    text-align: center;
-  }
-
-  .vision-title {
-    font-size: 48px;
-  }
-
-  .vision-content {
-    font-size: 20px;
-  }
-
-
-  .info-title {
-    font-size: 40px;
-    font-weight: bold;
-  }
-
-  .info-detail {
-    font-size: 16px;
-  }
-
-}
-
-@media screen and (max-width: 768px) {
-  .about {
-    padding: 100px 0;
-    position: relative;
-  }
-
-  .about-content {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-
-  .about-title h1 {
-    font-size: 36px;
-  }
-
-  .about-detail p {
-    font-size: 16px;
-  }
-
-  .vision {
-    padding: 60px 0;
-  }
-
-  .vision-img {
-    height: 300px;
-  }
-
-  .vision-title {
-    font-size: 36px;
-  }
-
-  .vision-content {
-    font-size: 18px;
-  }
-
-  .img-wrapper {}
-
-  .info-title {
-    font-size: 36px;
-    font-weight: bold;
-  }
-
-  .info-detail {
-    font-size: 12px;
-  }
-}
-
-@media screen and (max-width: 576px) {
-  .about {
-    padding: 100px 0;
-    position: relative;
-  }
-
-  .about-content {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  }
-
-  .about-title h1 {
-    font-size: 32px;
-  }
-
-  .about-detail p {
-    font-size: 16px;
-  }
-
-  .vision {
-    padding: 40px 0;
-  }
-
-  .vision-img {
-    height: 250px;
-  }
-
-  .vision-title {
-    font-size: 32px;
-  }
-
-  .vision-content {
-    font-size: 16px;
-  }
-
-  .img-wrapper img,
-  .img-overlay,
-  .info-text {
-    max-width: 576px;
-    max-height: 100vh;
-  }
-
-  .info-title {
-    font-size: 36px;
-    font-weight: bold;
-  }
-
-  .info-detail {
-    /* font-size: 12px;
-     */
-    opacity: 0;
-  }
+.more-info-hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

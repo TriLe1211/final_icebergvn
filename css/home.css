@@ -151,14 +151,22 @@ section {
 .intro-wrapper {
   margin: 0 auto;
   display: flex;
+  justify-content: center;
+
+}
+
+.intro-item {
+  /* width: 100%; */
+  display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 40px;
+  gap: 120px;
 }
 
 .introduce-text {
   flex: 1;
 }
+
 
 .title-intro h1 {
   text-align: center;
@@ -494,93 +502,4 @@ body {
 .partners {
   padding-top: 80px;
   /* Giảm padding-top từ 120px xuống 80px */
-}
-
-/* PC */
-@media screen and (min-width: 992px) {
-  html {
-    font-size: 16px;
-  }
-}
-
-/* Tablet */
-@media screen and (min-width: 768px) and (max-width: 991.98px) {
-  html {
-    font-size: 11px;
-  }
-
-  .banner-wrapper {
-    height: 60vh;
-  }
-
-  .banner-overlay {
-    height: 60vh;
-  }
-
-  .feature-list {
-    padding: 0px;
-  }
-
-  .features-detail {
-    padding-left: 20px;
-  }
-}
-
-/* Mobile */
-@media screen and (max-width: 767.98px) {
-  html {
-    font-size: 7px;
-  }
-
-  .banner-wrapper {
-    height: 40vh;
-  }
-
-  .banner-overlay {
-    height: 40vh;
-  }
-  .text-banner span {
-    font-size: 2.4rem;
-    margin-bottom: 10px;
-  }
-
-  .text-banner h1 {
-    font-size: 3.1rem;
-  }
-
-  .text-banner h2 {
-    font-size: 2.5rem;
-  }
-
-  .img-intro,
-  .features-item-img {
-    height: 40vh;
-  }
-
-  .features-item {
-    gap: 10px;
-  }
-
-  .feature {
-    margin-bottom: 8px;
-  }
-
-  .intro-wrapper {
-    padding: 0px;
-  }
-
-  .feature-list {
-    padding: 0px;
-  }
-
-  .partner-item {
-    padding: 0px;
-  }
-  .partners {
-    padding: 40px 0;
-  }
-
-  .features-detail {
-    padding-left: 10px;
-  }
 }
