@@ -126,6 +126,7 @@ html {
 .aoc-img {
   background-color: var(--third-color);
   width: 70%;
+  /* height: 50%; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -134,7 +135,7 @@ html {
 
 .aoc-img img {
   max-width: 100%;
-  height: auto;
+  height: 50%;
 }
 
 /*advertise-outside*/

@@ -4,24 +4,36 @@ const enTranslations = {
   'about': 'ABOUT',
   'cooperation': 'COOPERATION',
   'contact': 'CONTACT',
+  'products':'AQUABOX',
 
   // Home page
-  'content-intro': 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.',
-  'features-title': 'Why Choose Take Box?',
-  'features-detail-1': 'Active 24/7, no need for staff',
-  'features-detail-2': 'Save operating costs',
-  'features-detail-3': 'Easy to manage and maintain',
-  'features-detail-4': 'User-friendly interface',
-  'features-detail-5': 'Support multiple payment methods',
-  'features-detail-6': 'Detailed revenue reports',
+  'content-intro': 'IcebergVN is part of an international group specializing in the development of water vending machine networks. Originally launched in Russia, we have expanded to multiple countries including Kazakhstan, Uzbekistan, Georgia, and now Vietnam.',
+  'features-title': 'Why Choose ICEBERG VN?',
+  'features-detail-1': 'Multi-stage water filtration (RO, carbon, UV)',
+  'features-detail-2': 'Smart monitoring system (real-time control and diagnostics)',
+  'features-detail-3': 'Easy-to-use interface with cash and cashless payment options',
+  // 'features-detail-4': 'User-friendly interface',
+  // 'features-detail-5': 'Support multiple payment methods',
+  // 'features-detail-6': 'Detailed revenue reports',
   'partners-title': 'Our Partners',
   // About page
   // 'about_us': 'About Us',
-  'about-content':'We are established in 2017, our head office is located at 92 Nguyen Huu Canh, Ward 22, Binh Thanh District, Ho Chi Minh City. Our company is specializing in vending machines. ',
+  'about-content':'ICEBERG VN is the Vietnamese division of the international brand ICEBERG, specializing in the production and installation of automated drinking water vending stations — AquaBox.',
   'vision':'Our Vision',
-  'vision-content':'Vending machine is a great invention of the 1980s and being so popular in all developed countries such as Japan, Korea, China, Malaysia, etc. We wish to expand the popularity of vending machines to serve Vietnamese people and improve a modern Vietnamese image.',
+  'vision-content':'Our mission is to provide people across Vietnam with affordable access to high-quality drinking water, meeting both local and international health standards.',
   'more-info-title':'VENDING MACHINE',
   'more-info-content':'The vending machines have many utilities to better serve human life. Vending machines can operate 24 hours a day which consumers can serve themselves at any time. It can help to save processing time, fulfill consumers needs and ensure safety & health for consumers. Moreover, vending machine can save space and human resources for operating sales to serve consumers.Take Box is committed to providing machine products with clear origin and ensuring food hygiene and safety. Soft drinks are kept at a stable temperature to be sure they are stored in a good condition. In addition, consumers have a variety of choices for themselves such as drinks with different types and brands, snacks, candies at affordable prices.',
+  'why-aquabox':'Why choose AQUABOX?',
+  'w1':'Increase the number of visitors',
+  'w2':'Receive a stable income from renting out the location, without having to worry about operations and maintenance.',
+  'w3':'Provide clean drinking water at a reasonable price.',
+  'commitment':'OUR COMMITMENT',
+  'commitment-1':'All AQUABOX devices are developed, manufactured, and maintained by ICEBERG company.',
+  'process-title':'INSTALLATION PROCESS',
+  'p1':'INSTALLATION',
+  'p2':'TECHNICAL MAINTENANCE',
+  'p3':'REPLACE FILTER',
+  'free-offer':'ALL SERVICE ARE FREE',
   // Cooperation page
   'partnership': 'PARTNERSHIP',
   'partnership-text': 'The essence of Take Box is always base on user needs, integrate arious resources from different industries to provide users with quality services. Through innovation, intelligent operation, deep understanding of the market, we provide valuable services to our customers.',
@@ -37,7 +49,10 @@ const enTranslations = {
   // Footer
   'follow_us': 'Follow Us',
   'privacy_policy': 'Privacy Policy',
-  'terms_conditions': 'Terms & Conditions'
+  'terms_conditions': 'Terms & Conditions',
+  'address':'64 Vo Thi Sau, Tan Dinh Ward, District 1, Ho Chi Minh City ',
+  'phone':'+84 368 073 966',
+  'email':'vniceberg@gmail.com',
 }; 
 
 const viTranslations = {
@@ -46,24 +61,36 @@ const viTranslations = {
   'about': 'GIỚI THIỆU',
   'cooperation': 'HỢP TÁC',
   'contact': 'LIÊN HỆ',
+  'products':'SẢN PHẨM CỦA ICEBERG',
 
   // Home page
-  'content-intro': 'Máy bán hàng tự động cao cấp tại Việt Nam dành cho bạn. Máy bán hàng tự động đã trở thành thiết bị phổ biến ở các nước và khu vực phát triển vì sự thuận tiện, tiên tiến, văn mình và hoạt động cả ngày lẫn đêm của nó.',
-  'features-title': 'Tại sao lại chọn Take Box?',
-  'features-detail-1': 'Hoạt động 24/7, không cần nhân viên',
-  'features-detail-2': 'Tiết kiệm chi phí vận hành',
-  'features-detail-3': 'Dễ dàng quản lý và bảo trì',
-  'features-detail-4': 'Giao diện thân thiện với người dùng',
-  'features-detail-5': 'Hỗ trợ nhiều phương thức thanh toán',
-  'features-detail-6': 'Báo cáo doanh thu chi tiết',
+  'content-intro': 'IcebergVN là một phần của một nhóm quốc tế chuyên phát triển mạng lưới máy bán nước. Ban đầu được ra mắt tại Nga, chúng tôi đã mở rộng đến nhiều quốc gia bao gồm Kazakhstan, Uzbekistan, Georgia và giờ là Việt Nam.',
+  'features-title': 'Tại sao lại chọn ICEBERG VN?',
+  'features-detail-1': 'Giá nước rẻ hơn đến 5 lần so với nước đóng chai',
+  'features-detail-2': 'Kiểm soát chất lượng nghiêm ngặt và bảo trì định kỳ',
+  'features-detail-3': 'ICEBERG VN đang tích cực mở rộng mạng lưới AquaBox trên toàn lãnh thổ Việt Nam.',
+  'features-detail-4': 'Toàn bộ quá trình lắp đặt và bảo trì được thực hiện bởi đội ngũ ICEBERG VN chuyên nghiệp, theo tiêu chuẩn chất lượng nội bộ nghiêm ngặt.',
+  // 'features-detail-5': 'Hỗ trợ nhiều phương thức thanh toán',
+  // 'features-detail-6': 'Báo cáo doanh thu chi tiết',
   'partners-title': 'Đối tác của chúng tôi',
   // About page
   // 'about_us': 'Về chúng tôi',
-  'about-content':'Take Box được thành lập năm 2017, được tọa lạc tại văn phòng chính địa chỉ 92 Nguyễn Hữu Cảnh, Phường 22, Quận Bình Thạnh, TPHCM. Chúng tôi chuyên cung cấp máy bán hàng tự động.',
+  'about-content':'AquaBox là máy bán nước tự động với công nghệ lọc 8 bước tiên tiến giúp cung cấp nước uống sạch đảm bảo chất lượng 24/7.Thiết bị phù hợp để lắp đặt tại các khu dân cư, trường học, chợ và khu vực đông người qua lại.',
   'vision':'Tầm nhìn',
-  'vision-content':'Máy bán hàng tự động là một phát minh tuyệt vời vào năm 1980 và đang dần phổ biến ở các nước phát triển như Nhật Bản, Hàn Quốc, Trung Quốc, Malaysia, …vv. Chúng tôi hy vọng sẽ mở rộng và phục vụ máy này tại thị trường Việt nam cho người Việt Nam, và góp phần xây dựng hình ảnh hiện đại đô thị.',
+  'vision-content':'Sứ mệnh của chúng tôi là mang đến cho người dân Việt Nam nguồn nước sạch chất lượng cao với giá cả phải chăng, đạt tiêu chuẩn an toàn của Việt Nam và quốc tế.',
   'more-info-title':'Máy bán hàng tự động',
   'more-info-content':'Máy bán hàng tự động có rất nhiều tiện ích cho con người. máy hoạt động 24h trong ngày, điều đó giúp cho khách hàng có thể sử dụng bất cứ lúc nào. Bên cạnh đó giúp tiết kiệm thời gian cho khách hàng cũng như là đáp ứng đúng nhu cầu của khách với đảm bảo tốt về chất lượng và sức khỏe. Mặt khác, máy bán hàng tự động tiết kiệm không gian và không cần nhân lực để phục vụ quý khách.Chúng tôi cam kết cung cấp máy từ nguồn góc rõ ràng và đảm bảo thức ăn đồ uống vệ sinh và an toàn. Đồ uống được giữ ở một nhiệt độ ổn định và môi trường điều kiện tốt. khách hàng có nhiều sự lựa chọn về đồ ăn thức uống như thương hiệu, nhãn hiệu, giá…',
+  'why-aquabox':'Tại sao lại chọn AQUABOX?',
+  'w1':'Gia tăng lượng khách ghé thăm',
+  'w2':'Nhận thu nhập ổn định từ việc cho thuê địa điểm, mà không cần quan tâm đến việc vận hành và bảo trì',
+  'w3':'Cung cấp nước uống sạch với giá hợp lý.',
+  'commitment':'CHÚNG TÔI CAM KẾT',
+  'commitment-1':'Tất cả các thiết bị AQUABOX đều được phát triển, sản xuất và bảo trì bởi công ty ICEBERG.',
+  'process-title':'QUY TRÌNH LẮP ĐẶT',
+  'p1':'LẮP ĐẶT',
+  'p2':'BẢO TRÌ KĨ THUẬT',
+  'p3':'THAY LÕI LỌC',
+  'free-offer':'HOÀN TOÀN MIỄN PHÍ',
    // Cooperation page
    'partnership': 'HỢP TÁC',
    'partnership-text': 'Take box luôn phục vụ dựa trên nhu cầu của khách hàng, tích hợp các nguồn lực khác nhau từ các ngành công nghiệp riêng biệt để cung cấp cho khách hàng với dịch vụ tốt nhất. Thông qua sự cải tiến, sự vận hành thông minh, am hiểu về thị trường, chúng tôi cung cấp dịch vụ giá trị cho khách hàng.',
@@ -80,7 +107,10 @@ const viTranslations = {
   // Footer
   'follow_us': 'Theo dõi chúng tôi',
   'privacy_policy': 'Chính sách bảo mật',
-  'terms_conditions': 'Điều khoản và điều kiện'
+  'terms_conditions': 'Điều khoản và điều kiện',
+  'address':'64 Võ Thị Sáu, Phường Tân Định, Quận 1, Thành phố Hồ Chí Minh ',
+  'phone':'+84 368 073 966',
+  'email':'vniceberg@gmail.com',
 }; 
 
 // Lấy ngôn ngữ từ localStorage hoặc mặc định là 'vi'
@@ -198,6 +228,9 @@ document.addEventListener('DOMContentLoaded', function() {
         .then(response => response.text())
         .then(data => {
             document.getElementById('footer-container').innerHTML = data;
+            // Apply translations after loading footer
+            const currentLang = localStorage.getItem('language') || 'vi';
+            changeLanguage(currentLang);
         })
         .catch(error => console.error('Error loading footer:', error));
 });
@@ -210,8 +243,8 @@ function setActiveNavLink() {
     // List of cooperation dropdown pages
     const cooperationPages = [
         'become-a-location.html',
-        'advertisement.html',
-        'lease-and-franchise.html',
+        'advertise.html',
+        'leasing-franchise.html',
         'product-promotion.html'
     ];
     
