@@ -163,6 +163,11 @@ section {
   gap: 120px;
 }
 
+.intro-text,
+.intro-img {
+  width: 50%;
+}
+
 .introduce-text {
   flex: 1;
 }
