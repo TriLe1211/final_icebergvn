@@ -22,7 +22,7 @@ export const products= [
             voltage:'220V / 50Hz',
             powerConsumption:'100W (chế độ chờ 10W)',
             waterFiltrationRate: '1–2 lít/phút',
-            waterSupplyRate: ''
+            waterSupplyRate: '12 lít/phút'
         }
     },
     {
@@ -46,7 +46,7 @@ export const products= [
             voltage:'220V / 50Hz',
             powerConsumption:'100W (standby 10W)',
             waterFiltrationRate: '1–2 lít/phút',
-            waterSupplyRate: ''
+            waterSupplyRate: '12 lít/phút'
         }
     },
 ]
