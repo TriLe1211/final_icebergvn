@@ -10,6 +10,28 @@
   html {
     font-size: 11px;
   }
+  .hero {
+    height: 65vh;
+    margin-top: 13vh;
+    padding: 0;
+    /* overflow: hidden; */
+  }
+  .hero .body {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    padding: 5vh 0 0 0;
+    /* gap: 20px; */
+  }
+  .hero .heading {
+    font-size: 2rem;
+  }
+  .hero .content-block {
+    padding-left: 50px;
+  }
+  .hero .media-block img {
+    height: 50vh;
+  }
 }
 
 /* Mobile */
@@ -21,6 +43,8 @@
     height: 40vh;
     margin-top: 7vh;
     margin-bottom: 0;
+  }
+  .hero .body {
   }
 
   .hero .content-block {
@@ -39,6 +63,27 @@
   .product {
     margin: 0vh;
     height: 60vh;
+  }
+  .feedback-item {
+    height: 25vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-wrap: wrap;
+  }
+  .feedback-item .content blockquote {
+    font-size: 2rem;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  .feedback-item .info {
+    display: flex;
+    font-size: 2rem;
+    flex-direction: column;
+    text-align: center;
+    gap: 0;
   }
 
   .feedback-item .info,
@@ -106,5 +151,6 @@
   .product .desc {
     line-height: 1;
     margin: 8px 0;
+    font-size: 2rem;
   }
 }

@@ -2,7 +2,7 @@ const enTranslations = {
   // Navigation
   'home': 'HOME',
   'about': 'ABOUT',
-  'cooperation': 'COOPERATION',
+  'cooperation': 'PRODUCTS',
   'contact': 'CONTACT',
   'products':'AQUABOX',
 
@@ -59,7 +59,7 @@ const viTranslations = {
   // Navigation
   'home': 'TRANG CHỦ',
   'about': 'GIỚI THIỆU',
-  'cooperation': 'HỢP TÁC',
+  'cooperation': 'SẢN PHẨM',
   'contact': 'LIÊN HỆ',
   'products':'SẢN PHẨM CỦA ICEBERG',
 

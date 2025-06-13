@@ -2,10 +2,10 @@ export const products= [
     {
         id: 1,
         images: ['../img/residence.avif','../img/mall.avif', '../img/gymnasium.avif'],
-        productName: 'Ceberg Compact',
+        productName: 'CEBERG COMPACT',
         desc: 'Máy treo tường – Phù hợp cho các tòa nhà và công trình dân dụng',
         feature: 
-                ['Hoạt động 24/7 trong mọi điều kiện thời tiết.<br>', 
+                ['Hoạt động 24/7 mọi điều kiện thời tiết.<br>', 
                 'Nước được xử lý và cung cấp trực tiếp (liên tục, không dùng bồn chứa).<br>',
                 'Màn hình LED 4 dòng hiển thị: giá theo lít, số điện thoại hỗ trợ kỹ thuật và ngày thay lõi lọc gần nhất.<br>',
                 'Chấp nhận thanh toán qua thẻ không tiếp xúc, mã QR và tiền mặt.<br>',
@@ -28,7 +28,7 @@ export const products= [
     {
         id: 2,
         images: ['../img/table.avif','../img/banner.avif'],
-        productName: 'Ceberg Standard',
+        productName: 'CEBERG STANDARD',
         desc: 'Máy dạng đứng – Tích hợp bồn nước 300 lít',
         feature: 
         ['Vỏ ngoài bằng thép không gỉ AISI 430.<br>',
