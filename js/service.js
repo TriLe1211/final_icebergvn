@@ -1,9 +1,9 @@
 export const products= [
     {
         id: 1,
-        urlImg1: '../img/residence.avif',
-        urlImg2: '../img/mall.avif',
+        images: ['../img/residence.avif','../img/mall.avif', '../img/gymnasium.avif'],
         productName: 'Ceberg Compact',
+        desc: 'Máy treo tường – Phù hợp cho các tòa nhà và công trình dân dụng',
         feature: 
                 ['Hoạt động 24/7 trong mọi điều kiện thời tiết.<br>', 
                 'Nước được xử lý và cung cấp trực tiếp (liên tục, không dùng bồn chứa).<br>',
@@ -27,9 +27,9 @@ export const products= [
     },
     {
         id: 2,
-        urlImg1: '../img/table.avif',
-        urlImg2: '../img/banner.avif',
+        images: ['../img/table.avif','../img/banner.avif'],
         productName: 'Ceberg Standard',
+        desc: 'Máy dạng đứng – Tích hợp bồn nước 300 lít',
         feature: 
         ['Vỏ ngoài bằng thép không gỉ AISI 430.<br>',
         'Hệ thống lọc và cấp nước bằng thép không gỉ AISI 304 (kháng ăn mòn hoàn toàn).<br>',
@@ -45,18 +45,19 @@ export const products= [
             operatingTemperature: '–40°C đến +40°C',
             voltage:'220V / 50Hz',
             powerConsumption:'100W (standby 10W)',
-            waterFiltrationRate: '1–2 liters/minute',
-            waterSupplyRate: '12 lít/phút'
+            waterFiltrationRate: '1–2 lít/phút',
+            waterSupplyRate: ''
         }
     },
 ]
 
-// export const feedbacks = [
-//     {
-//         avatar: '../img/table.avif',
-//         name: 'Peter Moor',
-//         level: 'Student of Web Design',
-//         desc: 'Không chỉ có sơ yếu lý lịch ấn tượng - đầy tên và logo của các tổ chức đẳng cấp thế giới - mà những chứng chỉ này còn giúp tôi tiến gần hơn đến mục tiêu nghề nghiệp của mình bằng cách xác nhận các kỹ năng tôi đã học được."'
-//     },
-
-// ]
+export const filteringProcess = [
+   'Màng lọc polypropylene 5 micrômét',
+   'Than hoạt tính từ gáo dừa',
+   'Màng lọc polypropylene 1 micrômét',
+   'Màng lọc thẩm thấu ngược (RO)',
+   'Bổ sung khoáng chất',
+   'Tinh lọc bằng than hoạt tính',
+   'Khử trùng bằng tia cực tím (UV)',
+   'Khử trùng bình chứa bằng công nghệ Ozone'
+]

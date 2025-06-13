@@ -60,6 +60,7 @@
 
   .product .body {
     flex-direction: column;
+    gap: 10px;
   }
 
   .product .content {
@@ -79,7 +80,7 @@
 
   .product .images img {
     height: 25vh;
-    width: 50%;
+    width: 100%;
   }
 
   .product .content p {
@@ -96,5 +97,14 @@
 
   .feedback .dots {
     display: none;
+  }
+
+  .product .content .heading {
+    margin-bottom: 7px;
+  }
+
+  .product .desc {
+    line-height: 1;
+    margin: 8px 0;
   }
 }
