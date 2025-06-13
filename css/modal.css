@@ -1,0 +1,171 @@
+html {
+  font-size: 16px;
+  overflow-x: hidden;
+}
+
+body {
+  overflow-x: hidden;
+}
+.modal {
+  inset: 0;
+  background: rgba(150, 150, 150, 0.4);
+  padding: 30px;
+  overflow: auto;
+  overscroll-behavior: none;
+}
+
+.modal::-webkit-scrollbar {
+  display: none; /* Chrome, Safari */
+}
+
+.modal .body {
+  position: relative;
+  margin: auto;
+  width: 80vw;
+  background-color: rgb(250, 255, 249);
+  border-radius: 20px;
+}
+
+.modal .body .information {
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal .body .modal-images {
+  position: relative;
+  display: flex;
+  transition: transform 0.5s ease;
+  width: 100%;
+}
+
+.modal .body .modal-images img {
+  border-radius: 10px;
+  width: 100%;
+  height: 50vh;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.left-info {
+  position: relative;
+  margin: 50px;
+  width: 50%;
+}
+
+.frame {
+  position: relative;
+  margin: 0 auto;
+  overflow-x: hidden;
+  width: 90%;
+}
+.modal .body .left-info .prev,
+.modal .body .left-info .next {
+  position: absolute;
+  color: #d0e2f7;
+}
+.modal .body .left-info .prev:hover,
+.modal .body .left-info .next:hover {
+  cursor: pointer;
+  color: #82b9f8;
+}
+
+.modal .body .left-info .prev {
+  top: 50%;
+  left: -25px;
+  font-size: 50px;
+}
+
+.modal .body .left-info .next {
+  top: 50%;
+  right: -25px;
+  font-size: 50px;
+}
+
+.modal .body .detail {
+  width: 50%;
+}
+
+.modal .body .detail .specification {
+  padding: 0px 20px;
+
+  display: flex;
+}
+
+.modal .title {
+  margin: 10px 0;
+}
+.modal .detail .product-name {
+  background-color: #27548a;
+  color: white;
+  text-align: center;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #ccc8c8;
+  border-radius: 10px;
+  padding: 8px 0;
+}
+
+.modal .product-name {
+  font-size: 2.5rem;
+  margin: 0px;
+  color: #27548a;
+}
+
+.modal .body .content,
+.modal .body .process {
+  padding: 30px 70px;
+  border-top: 1px solid rgb(186, 184, 184);
+}
+
+.modal .body p {
+  color: #27548a;
+  margin: 5px;
+}
+
+.information .left {
+  width: 50%;
+}
+
+.information .right {
+  width: 50%;
+}
+
+.modal .title {
+  font-size: 2rem;
+  color: #4d95eb;
+}
+
+.modal .desc {
+  font-size: 1rem;
+  margin-top: 10px;
+  color: #5e6262;
+}
+
+.modal .sub-title {
+  margin: 30px 0 15px;
+  font-size: 1rem;
+  color: #55a1fd;
+}
+
+.modal ul {
+  color: #27548a;
+}
+
+.modal ul li {
+  width: 70%;
+  margin-top: 10px;
+  /* color: #0088f9; */
+}
+
+.modal .close {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  cursor: pointer;
+}
+
+.modal .close .icon-close {
+  font-size: 2.5rem;
+  color: #27548a;
+}

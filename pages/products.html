@@ -20,7 +20,11 @@
     <link rel="stylesheet" href="../css/navbar.css" />
     <link rel="stylesheet" href="../css/footer.css" />
     <link rel="stylesheet" href="../css/products.css">
+    <link rel="stylesheet" href="../css/modal.css">
+
     <link rel="stylesheet" href="../css/responsive-products.css">
+    <link rel="stylesheet" href="../css/responsive-modal.css">
+
 </head>
 
 <body>
@@ -89,10 +93,10 @@
 
                 </div>
             </div>
-            <div class="dots" id="0">
-                <span class="dot active" id="0"></span>
-                <span class="dot" id="1"></span>
-                <span class="dot" id="2"></span>
+            <div class="dots" data-id="0">
+                <span class="dot active" data-id="0"></span>
+                <span class="dot" data-id="1"></span>
+                <span class="dot" data-id="2"></span>
             </div>
         </div>
     </div>
@@ -103,6 +107,8 @@
     </div>
 
     <div id="footer-container"></div>
+
+    <div class="modal" style="display: none;"></div>
     <script src="../js/script.js"></script>
     <script type="module" src="../js/products.js"></script>
 

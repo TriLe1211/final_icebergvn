@@ -1,0 +1,73 @@
+/* PC */
+@media screen and (min-width: 992px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+/* Tablet */
+@media screen and (min-width: 768px) and (max-width: 991.98px) {
+  html {
+    font-size: 11px;
+  }
+}
+
+/* Mobile */
+@media screen and (max-width: 767.98px) {
+  html {
+    font-size: 7px;
+  }
+
+  .modal .body .information {
+    display: block;
+  }
+
+  .left-info {
+    width: 100%;
+    margin: 0px;
+  }
+
+  .frame {
+    width: 70%;
+  }
+
+  .modal .body .modal-images img {
+    height: 30vh;
+  }
+
+  .modal .body .left-info .prev {
+    top: 32%;
+    left: 10px;
+  }
+
+  .modal .body .left-info .next {
+    top: 32%;
+    right: 10px;
+  }
+
+  .modal .body .detail {
+    padding: 30px;
+    width: 100%;
+  }
+
+  .modal .sub-title {
+    margin: 10px 0px 5px;
+  }
+
+  .modal .body .content,
+  .modal .body .process {
+    padding: 20px 30px;
+  }
+
+  .modal ul li {
+    margin-top: 5px;
+  }
+
+  .steps li {
+    margin-left: 20px;
+  }
+
+  .modal .close .icon-close {
+    font-size: 5.5rem;
+  }
+}
