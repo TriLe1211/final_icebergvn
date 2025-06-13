@@ -6,11 +6,11 @@ export const products= [
         desc: 'Máy treo tường – Phù hợp cho các tòa nhà và công trình dân dụng',
         feature: 
                 ['Hoạt động 24/7 mọi điều kiện thời tiết.<br>', 
-                'Nước được xử lý và cung cấp trực tiếp (liên tục, không dùng bồn chứa).<br>',
-                'Màn hình LED 4 dòng hiển thị: giá theo lít, số điện thoại hỗ trợ kỹ thuật và ngày thay lõi lọc gần nhất.<br>',
                 'Chấp nhận thanh toán qua thẻ không tiếp xúc, mã QR và tiền mặt.<br>',
                 'Giao diện có đèn nền – dễ sử dụng vào ban đêm.<br>',
-                'Hệ thống camera thông minh cảnh báo được tích hợp sẵn.<br>'
+                'Hệ thống camera thông minh cảnh báo được tích hợp sẵn.<br>',
+                'Màn hình LED 4 dòng hiển thị: giá theo lít, số điện thoại hỗ trợ kỹ thuật và ngày thay lõi lọc gần nhất.<br>',
+                'Nước được xử lý và cung cấp trực tiếp (liên tục, không dùng bồn chứa).<br>',
             ],
         specifications: {
             weight: '150 kg', 
